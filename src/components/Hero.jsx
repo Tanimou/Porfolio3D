@@ -11,10 +11,10 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915edd]'>Cisse</span>
+            Hi, I&apos;m <span className='text-[#915edd]'>Cisse</span>
             <p className={`${styles.heroSubText} text-white-100 mt-2`}>
               {/* describe me as a person who is passionate about software engineering and Ai stuff */}
-              I'm a software engineer and Ai enthusiast,<br className="sm:block hidden"/> I love to build things that make life easier.
+              I&apos;m a software engineer and Ai enthusiast,<br className="sm:block hidden"/> I love to build things that make life easier.
             </p>
           </h1>
         </div>
@@ -23,7 +23,7 @@ const Hero = () => {
       <div className='absolute xs:bottom-0.5 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
-            <motion.dev
+            <motion.div
               animate={{ y: [0, 24, 0] }}
               transition={{ duration: 2, repeat: Infinity, repeatType: 'loop' }}
               className="w-3 h-3 rounded-full bg-secondary mb-1"
