@@ -7,20 +7,7 @@ import CanvasLoader from '../Loader'
 // eslint-disable-next-line react/prop-types
 const Computers = ({isMobile}) => {
   const computer = useGLTF('./desktop_pc/scene.gltf')
-  // const canvasRef = useRef();
 
-  // useEffect(() => {
-  //   const canvas = canvasRef.current;
-  //   let intervalId = null;
-
-  //   if (!isMobile && canvas) {
-  //     intervalId = setInterval(() => {
-  //       canvas.rotation.y += 0.01;
-  //     },1);
-  //   }
-  //   return () => clearInterval(intervalId);
-  //   // return () => clearInterval(intervalId);
-  // }, [isMobile]);
   return (
     <mesh >
       <hemisphereLight intensity={0.15} groundColor="black" />
@@ -72,6 +59,7 @@ const ComputersCanvas = () => {
         <OrbitControls
           enableZoom={false}
           enableRotate={true}
+          autoRotate
 
           // maxPolarAngle={Math.PI / 2}
           // minPolarAngle={Math.PI / 2}
