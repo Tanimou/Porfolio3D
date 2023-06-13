@@ -9,7 +9,8 @@ import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import ServiceCard from './ServiceCard'
 import ExperienceCard from './ExperienceCard'
-import ProjectCard from './ExperienceCard'
+import ProjectCard from './ProjectCard'
+import FeedbackCard from './FeedbackCard'
 
 export {
   Hero,
@@ -17,6 +18,7 @@ export {
   About,
   Tech,
   Experience,
+  FeedbackCard,
   ExperienceCard,
   ProjectCard,
   Works,
