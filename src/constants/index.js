@@ -3,6 +3,10 @@ import {
     backend,
     creator,
     web,
+    scss,
+    nextjs,
+    restapi,
+    supabase,
     javascript,
     typescript,
     html,
@@ -22,6 +26,7 @@ import {
     carrent,
     jobit,
     tripguide,
+    promptopia,
     threejs,
 } from "../assets";
 
@@ -204,19 +209,23 @@ const projects = [
         tags: [
             {
                 name: "react",
+                image: reactjs,
                 color: "blue-text-gradient",
             },
             {
                 name: "mongodb",
                 color: "green-text-gradient",
+                image: mongodb,
             },
             {
                 name: "tailwind",
                 color: "pink-text-gradient",
+                image: tailwind,
             },
         ],
         image: carrent,
-        source_code_link: "https://github.com/",
+        source_code_github: "https://github.com/",
+        urllink : ""
     },
     {
         name: "Job IT",
@@ -226,18 +235,22 @@ const projects = [
             {
                 name: "react",
                 color: "blue-text-gradient",
+                image: reactjs,
             },
             {
                 name: "restapi",
                 color: "green-text-gradient",
+                image: restapi,
             },
             {
                 name: "scss",
                 color: "pink-text-gradient",
+                image: scss,
             },
         ],
         image: jobit,
-        source_code_link: "https://github.com/",
+        source_code_github: "https://github.com/",
+        urllink : ""
     },
     {
         name: "Trip Guide",
@@ -247,18 +260,47 @@ const projects = [
             {
                 name: "nextjs",
                 color: "blue-text-gradient",
+                image: nextjs,
             },
             {
                 name: "supabase",
                 color: "green-text-gradient",
+                image: supabase,
             },
             {
                 name: "css",
                 color: "pink-text-gradient",
+                image: css,
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/",
+        source_code_github: "https://github.com/",
+        urllink : ""
+    },
+    {
+        name: "Promptopia",
+        description:
+            "A Ai-Powered prompt to discover and share.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+                image: nextjs,
+            },
+            {
+                name: "tailwindcss",
+                color: "green-text-gradient",
+                image: tailwind,
+            },
+            {
+                name: "mongodb",
+                color: "pink-text-gradient",
+                image: mongodb,
+            },
+        ],
+        image: promptopia,
+        source_code_github: "https://github.com/Tanimou/promptopia",
+        urllink: "https://promptopia-tanimou.vercel.app/"
     },
 ];
 

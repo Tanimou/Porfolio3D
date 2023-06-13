@@ -1,6 +1,9 @@
 import logo from "./logo.svg";
 import cissefavicon from "./cissefavicon.svg";
 import cissetanimou from "./cissetanimou.svg";
+import link from "./link.png";
+import link2 from "./link2.png";
+import promptopia from "./promptopia.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -10,6 +13,10 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
+import scss from "./tech/scss.png";
+import nextjs from "./tech/nextjs.png";
+import supabase from "./tech/supabase.png";
+import restapi from "./tech/restapi.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -36,9 +43,16 @@ export {
   logo,
   cissefavicon,
   cissetanimou,
+  link,
+  link2,
+  promptopia,
   backend,
   creator,
   mobile,
+  scss,
+  nextjs,
+  supabase,
+  restapi,
   web,
   github,
   menu,

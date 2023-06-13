@@ -7,8 +7,22 @@ import CanvasLoader from '../Loader'
 // eslint-disable-next-line react/prop-types
 const Computers = ({isMobile}) => {
   const computer = useGLTF('./desktop_pc/scene.gltf')
+  // const canvasRef = useRef();
+
+  // useEffect(() => {
+  //   const canvas = canvasRef.current;
+  //   let intervalId = null;
+
+  //   if (!isMobile && canvas) {
+  //     intervalId = setInterval(() => {
+  //       canvas.rotation.y += 0.01;
+  //     },1);
+  //   }
+  //   return () => clearInterval(intervalId);
+  //   // return () => clearInterval(intervalId);
+  // }, [isMobile]);
   return (
-    <mesh>
+    <mesh >
       <hemisphereLight intensity={0.15} groundColor="black" />
       <pointLight intensity={1} />
       <spotLight
@@ -41,7 +55,7 @@ const ComputersCanvas = () => {
     return () => mediaQuery.removeEventListener('change', () => { } )
   }, [])
 
-  
+
   
 
   return (  
