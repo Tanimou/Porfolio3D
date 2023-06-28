@@ -16,6 +16,8 @@ import {
     tailwind,
     nodejs,
     mongodb,
+    realtime_chat_app,
+    upstash,
     git,
     figma,
     docker,
@@ -301,6 +303,31 @@ const projects = [
         image: promptopia,
         source_code_github: "https://github.com/Tanimou/promptopia",
         urllink: "https://promptopia-tanimou.vercel.app/"
+    },
+     {
+        name: "Realtime Chat App",
+        description:
+            "A realtime chat app built with Nextjs.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+                image: nextjs,
+            },
+            {
+                name: "tailwindcss",
+                color: "green-text-gradient",
+                image: tailwind,
+            },
+            {
+                name: "Upstash Redis",
+                color: "pink-text-gradient",
+                image: upstash,
+            },
+        ],
+        image: realtime_chat_app,
+        source_code_github: "https://github.com/Tanimou/realtime-app-chat",
+        urllink: "https://realtime-app-chat-five.vercel.app/"
     },
 ];
 
